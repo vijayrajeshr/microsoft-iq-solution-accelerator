@@ -67,6 +67,7 @@ def get_market_event_multiplier(current_date: datetime) -> Tuple[str, float, flo
     - Memorial Day Weekend: 1.4x frequency, 1.2x size
     - Black Friday / Cyber Monday: 1.8x frequency, 1.3x size
     - Holiday Rush (Dec 10-24): 1.5x frequency, 1.25x size
+    - Christmas Day (Dec 25): 1.1x frequency, 1.1x size
     
     Returns:
         Tuple[str, float, float]: (event_name, order_frequency_multiplier, order_size_multiplier)
